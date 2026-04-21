@@ -1,0 +1,24 @@
+<StatFile statistics.$month.html>
+<TITLE>Homepage statistieken</TITLE> <BR>
+
+Ik heb tot nu toe <Stats TotalHits url=> hits gehad op mijn homepage.
+
+Mijn homepage heeft deze maand <Stats MonthTraffic inM format=.3 > Mb aan dataverkeer gegenereerd.
+
+Deze statistieken zijn bijgewerkt tot <Stats LogDate >.
+
+Hier volgt een lijst met alle URL's die deze maand vanaf mijn homepage opgevraagd zijn, gesorteerd op aantal hits:
+<Stats TopURL WithTraffic Numbered >
+
+Ik heb bezoekers gehad uit deze domeinen:
+<Stats TopDomain ByTraffic WithHits UnNumbered top=100 >
+
+Aantal hits per dag:
+<Stats PerDay WithHits WithTraffic>
+
+Look at <a href="http://www.xs4all.nl/~johnpc/dotstats.html">the description
+of <tt>.stats</tt> files</a> if you want to have these same nice usage
+statistics.
+
+See also the <a href="statistics.<Stats LogMonth>.html"> domain accesses</a>
+</StatFile>
